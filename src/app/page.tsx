@@ -5,6 +5,7 @@ import { Container } from "@/components/Container";
 import { Header } from "@/components/Header";
 import Link from "next/link";
 import Image from "next/image";
+import { PostHeading } from "@/components/PostHeading";
 
 export default function HomePage() {
   return (
@@ -27,9 +28,9 @@ export default function HomePage() {
             20/11/2026 10:00
           </time>
 
-          <h1 className="text-2xl/tight font-extrabold sm:text-4xl">
-            <Link href="#">Lorem ipsum dolor sit amet consectetur.</Link>
-          </h1>
+          <PostHeading url="#" as="h1">
+            Lorem ipsum dolor sit amet.
+          </PostHeading>
 
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae
