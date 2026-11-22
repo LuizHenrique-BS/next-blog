@@ -17,7 +17,10 @@ export async function PostFeatured() {
         }}
       />
       <div className="flex flex-col gap-4 sm:justify-center">
-        <time className="text-slate-600 text-sm/tight" dateTime="2026-11-20">
+        <time
+          className="text-slate-600 block text-sm/tight"
+          dateTime="2026-11-20"
+        >
           20/11/2026 10:00
         </time>
 
